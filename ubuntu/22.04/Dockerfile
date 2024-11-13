@@ -1,4 +1,4 @@
-FROM forgejo-ubuntu-2204-base AS forgejo-ubuntu-2204-php
+FROM johnroyer/forgejo-runners:forgejo-ubuntu-base AS forgejo-ubuntu-2204-php
 
 # install nodejs v18
 RUN cd /tmp && \
