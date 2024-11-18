@@ -17,7 +17,7 @@ RUN apt-get update &&  \
 # install Python
 RUN apt-get update &&  \
     apt-get install -y --no-install-recommends \
-        python python3-pip \
+        python3 python3-pip \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/* /tmp/*
 
