@@ -14,6 +14,13 @@ RUN apt-get update &&  \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/* /tmp/*
 
+# install Python
+RUN apt-get update &&  \
+    apt-get install -y --no-install-recommends \
+        python python3-pip \
+    apt-get autoremove -y && \
+    rm -rf /var/lib/apt/* /tmp/*
+
 # install git
 RUN add-apt-repository -y ppa:git-core/ppa && \
     apt-get update && \
