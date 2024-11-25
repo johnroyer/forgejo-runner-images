@@ -33,6 +33,36 @@ jobs:
 ```
 
 
+## Ubuntu images
+
+There are packages installed on Ubuntu images
+
+### Ubuntu 22.04
+
+- curl
+- git
+- gpg-agent
+- jq
+- nodejs
+- python3
+- python3-pip
+- software-properties-common
+- unzip
+- zstd
+
+### Ubuntu 24.04
+
+- curl
+- git
+- gpg-agent
+- jq
+- nodejs
+- python3
+- python3-pip
+- software-properties-common
+- unzip
+- zstd
+
 ## Todos
 
 This is a concept prove for now. There are a lot of difference between Github Actions runner. I am trying to find what should be installed in base image and try to make image simple and small:  
