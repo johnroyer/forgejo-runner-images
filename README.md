@@ -37,6 +37,19 @@ jobs:
 
 There are packages installed on Ubuntu images
 
+### Ubuntu 20.04
+
+- curl
+- git
+- gpg-agent
+- jq
+- nodejs
+- python3
+- python3-pip
+- software-properties-common
+- unzip
+- zstd
+
 ### Ubuntu 22.04
 
 - curl
