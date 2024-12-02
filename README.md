@@ -35,7 +35,7 @@ jobs:
 
 ## Ubuntu images
 
-There are packages installed on Ubuntu images
+I build Ubuntu images first. Every images can be found at Dockerhub: https://hub.docker.com/repository/docker/johnroyer/forgejo-runners
 
 ### Ubuntu 20.04
 
