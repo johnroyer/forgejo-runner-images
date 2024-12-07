@@ -11,3 +11,7 @@ RUN apk add --no-cache python3 py3-pip && \
 # install git
 RUN apk add --no-cache git && \
     rm -vrf /var/cache/apk/*
+
+# install nodejs
+RUN apk add --no-cache nodejs && \
+    rm -vrf /var/cache/apk/*
