@@ -7,3 +7,7 @@ RUN apk add --no-cache bash curl unzip jq zstd && \
 # install Python \
 RUN apk add --no-cache python3 py3-pip && \
     rm -vrf /var/cache/apk/*
+
+# install git
+RUN apk add --no-cache git && \
+    rm -vrf /var/cache/apk/*
